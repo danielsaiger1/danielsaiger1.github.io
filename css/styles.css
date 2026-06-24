@@ -11437,4 +11437,57 @@ section.resume-section .resume-section-content img{
   }
 }
 
+        .hero-title {
+            font-size: clamp(3rem, 8vw, 6rem);
+        }
 
+        .hero-tagline {
+            max-width: 850px;
+        }
+
+        .skill-badge {
+            display: inline-block;
+            padding: 0.45rem 0.8rem;
+            margin: 0.25rem;
+            border-radius: 999px;
+            background: rgba(189, 93, 56, 0.12);
+            color: #bd5d38;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .project-card {
+            border-left: 4px solid #bd5d38;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            background: #fff;
+            box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.06);
+            border-radius: 0.5rem;
+        }
+
+        .project-meta {
+            color: #6c757d;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .project-links a {
+            margin-right: 1rem;
+            font-weight: 700;
+        }
+
+        .section-intro {
+            max-width: 850px;
+        }
+
+        .nyan {
+            max-height: 70px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 768px) {
+            .nyan {
+                display: block;
+                margin-top: 1rem;
+            }
+        }
